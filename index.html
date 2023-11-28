@@ -18,14 +18,25 @@
 
   <main class="conteudo-principal">
     <section class="sesao-um">
-      <img class="foto-produto" src="./images/image-product-desktop.jpg" alt="Foto do perfume">
+     <!-- <img class="foto-produto" src="./images/image-product-desktop.jpg" alt="Foto do perfume"> -->
+      
+        <picture>
+        <source  media="(min-width:650px)" srcset="./images/image-product-desktop.jpg">
+       <!-- <source media="(min-width:465px)" srcset="https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.jpg"> -->
+        <img class="foto-produto" src="./images/image-product-mobile.jpg" alt="" style="">
+        
+      </picture>
+    
       <article class="textos">
-        <h2>PERFUME</h2>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
+        
+          <h2>PERFUME</h2>
+        <h1>Gabrielle Essence<br> Eau De Parfum</h1>
 
         <p class="texto-um">
-          A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.
+          A floral, solar and voluptuous<br>
+          interpretation composed by Olivier<br>
+          Polge, Perfumer-Creator for the House of <br>
+          CHANEL.
         </p>
 
         <section class="sesao-dois">
@@ -35,6 +46,7 @@
 
         <button><img class="carinho-de-compras" src="./images/icon-cart.svg" alt="carinho de compras">&nbsp;&nbsp;&nbsp;
           Add to Cart</button>
+  
       </article>
     </section>
   </main>
