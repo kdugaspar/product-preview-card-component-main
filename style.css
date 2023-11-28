@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -66,7 +66,7 @@
         background-color: #ffffff;
         width: 210px;
         font-size: 13px;
-    
+        
     }
     
     .sesao-dois {
@@ -146,10 +146,11 @@
         font-family: 'Montserrat', sans-serif;
         color: rgb(132, 132, 133);
         background-color: #0a98f700;
-        width: 328px;
+        width: 322px;
         height: 110px;
         font-size: 15px;
         line-height: 1.6;
+        font-weight: 600;
     
     }
 
